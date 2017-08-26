@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+#wrapper {
+  max-width: 970px;
+  min-height: 800px;
+  padding: 0%;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, rgba(229, 229, 229, 1) 0%, rgba(255, 255, 255, 1) 39%);
+}
+
+.header {
+  width: 100%;
+  display: block;
+  background-color: #FFFFFF;
+}
+
+.header img {
+  width: 110px;
+  position: absolute;
+  margin: 15px 10px;
+}
+
+.header h1 {
+  padding-top: 30px;
+  margin-left: 120px;
+  font-size: 300%;
+  font-weight: 500;
+}
+
+.header h2 {
+  color: #FFFFFF;
+  display: block;
+  margin-top: 20px;
+  padding: 10px 10px 10px 100px;
+  background: linear-gradient(to bottom, rgba(184, 205, 224, 1) 0%, rgba(117, 159, 195, 1) 24%, rgba(50, 104, 152, 1) 50%, rgba(94, 142, 184, 1) 79%, rgba(132, 169, 202, 1) 100%);
+  font-size: 160%;
+  font-weight: 500;
+}
+
+.sidebar {
+  width: calc(30% - 5px);
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.navigation {
+  margin-left: 10px;
+  width: 220px;
+  border-bottom: 1px solid #666666;
+}
+
+.navigation p {
+  margin-top: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: #6390B7;
+}
+
+.buttons {
+  color: #FFFFFF;
+  display: block;
+  width: 200px;
+  padding: 12px 0;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #666666;
+}
+
+#video {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background: linear-gradient(to bottom, rgba(122, 188, 255, 1) 0%, rgba(96, 171, 248, 1) 44%, rgba(64, 150, 238, 1) 100%);
+}
+
+#resources {
+  background: linear-gradient(to bottom, rgba(255, 175, 75, 1) 0%, rgba(255, 146, 10, 1) 100%);
+  margin-bottom: 15px;
+}
+
+.advertisement {
+  background-image: url("images/ad_background.png");
+  height: 380px;
+  width: 200px;
+  border-top: 1px solid #666666;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#ninja {
+  width: 120px;
+  height: 200px;
+  margin: 0 auto 5px 15%;
+}
+
+.advertisement p {
+  color: #FFFFFF;
+  font-size: 120%;
+  width: 165px;
+  margin-top: 20px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.advertisement button {
+  border-radius: 6px;
+  padding: 8px 12px;
+  width: 150px;
+  margin: 10px auto 5px 10%;
+  background: linear-gradient(to bottom, rgba(135, 224, 253, 1) 0%, rgba(83, 203, 241, 1) 40%, rgba(5, 171, 224, 1) 100%);
+  box-shadow: 1px 1px 5px #666666;
+  border: 0px;
+  color: #FFFFFF;
+  font-size: 100%;
+}
+
+.main {
+  width: calc(70% - 4px);
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+.mainHeader {
+  height: 60px;
+  display: block;
+  vertical-align: top;
+}
+
+.homepage {
+  margin-right: 365px;
+  vertical-align: top;
+}
+
+.homepage img {
+  display: inline-block;
+  width: 15px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.contact {
+  background-image: url("images/phone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+  height: 55px;
+  width: 235px;
+}
+
+.small {
+  font-size: 80%;
+  display: inline-block;
+}
+
+.phoneNum {
+  color: #0EB8DC;
+  font-size: 170%;
+  margin: -5px 0;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+}
+
+.content {
+  border-top: 1px solid #666666;
+  display: block;
+  min-height: 350px;
+  padding: 10px 20px;
+}
+
+.content a, .feature a, .mainHeader a {
+  text-decoration: none;
+  color: #0EB8DC;
+}
+
+.content h4 {
+  font-size: 120%;
+  color: #6390B7;
+  margin: 10px 0;
+}
+
+.content li {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.content img {
+  width: 270px;
+  margin: 15px auto 10px 30%;
+}
+
+.feature {
+  height: 130px;
+  width: 90%;
+  margin: 20px 20px 0 auto;
+  border: 5px solid #6390B7;
+  padding: 10px;
+}
+
+.feature img {
+  max-height: 120px;
+  padding: 0;
+  display: inline-block;
+  position: absolute;
+}
+
+.feature>h5 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 120%;
+  color: #6390B7;
+  margin-left: 150px;
+}
+
+.feature>p {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}

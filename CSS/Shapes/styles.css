@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: blue;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+#wrapper {
+  width: 970px;
+  min-height: 800px;
+  padding: 0%;
+  margin: 0 auto;
+}
+
+.square {
+  width: 140px;
+  height: 140px;
+  background: blue;
+  margin: 100px;
+  display: inline-block;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  background: blue;
+  margin: 100px;
+  display: inline-block;
+}
+
+.triangleContainer {
+  width: 500px;
+  margin: 100px;
+  transform: rotate(45deg);
+}
+
+.triSquare1 {
+  width: 160px;
+  height: 160px;
+  background: blue;
+  transform: skew(10deg,10deg);
+  margin: 20px;
+}
+
+.triSquare2 {
+  width: 200px;
+  height: 200px;
+  background: white;
+  transform: rotate(45deg);
+  margin: -130px 0 0 60px;
+}
+
+.pacmanContainer {
+  width: 300px;
+  margin: 100px;
+}
+
+.pacCircle {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  background: blue;
+}
+
+.pacSquare {
+  width: 140px;
+  height: 140px;
+  background: white;
+  margin: -115px 0 0 96px;
+  position: absolute;
+  transform: rotate(60deg);
+}
